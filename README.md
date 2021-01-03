@@ -2,6 +2,8 @@
 
 Anonymizer / CGI proxy / web proxy
 
+![docker image deploy](https://github.com/magicxor/BitTorrentAnonymizer/workflows/docker%20image%20deploy/badge.svg)
+
 ![Imgur](https://i.imgur.com/t7YiiJe.png)
 
 ## Usage
