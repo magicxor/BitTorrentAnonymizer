@@ -33,4 +33,4 @@ jobs:
           push: true
           tags: |
             ${{ env.DOCKER_IMAGE_PATH }}:latest
-            ${{ env.DOCKER_IMAGE_PATH }}:${GITHUB_SHA}
+            ${{ env.DOCKER_IMAGE_PATH }}:${{ github.sha }}
