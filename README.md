@@ -2,7 +2,7 @@
 
 Anonymizer / CGI proxy / web proxy
 
-![docker image deploy](https://github.com/magicxor/BitTorrentAnonymizer/workflows/docker%20image%20deploy/badge.svg)
+![docker image deploy](https://github.com/magicxor/BitTorrentAnonymizer/workflows/docker%20image%20deploy/badge.svg?branch=master)
 
 ![Imgur](https://i.imgur.com/t7YiiJe.png)
 
