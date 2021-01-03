@@ -9,7 +9,7 @@ env:
 
 jobs:
   path-context:
-    runs-on: ubuntu
+    runs-on: ubuntu-20.04
     steps:
       -
         name: Checkout
