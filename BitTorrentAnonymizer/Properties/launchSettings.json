@@ -1,0 +1,29 @@
+﻿{
+    "profiles": {
+        "BitTorrentAnonymizer": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "BitTorrentAnonymizer_AllowedHosts": "*",
+                "BitTorrentAnonymizer_Logging__LogLevel__Default": "Trace",
+                "BitTorrentAnonymizer_Logging__LogLevel__Microsoft": "Warning",
+                "BitTorrentAnonymizer_Logging__LogLevel__Microsoft.Hosting.Lifetime": "Information",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyAuthentication": "false",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyHost": "",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyPassword": "",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyPort": "0",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyProtocol": "None",
+                "BitTorrentAnonymizer_ProxyConfiguration__ProxyUsername": ""
+            },
+            "dotnetRunMessages": "true",
+            "applicationUrl": "http://localhost:5000"
+        },
+        "Docker": {
+            "commandName": "Docker",
+            "launchBrowser": true,
+            "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+            "publishAllPorts": true
+        }
+    }
+}
