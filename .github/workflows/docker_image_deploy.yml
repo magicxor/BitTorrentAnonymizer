@@ -8,7 +8,7 @@ env:
   DOCKER_IMAGE_PATH: ${{ secrets.DOCKERHUB_USERNAME }}/bittorrent-anonymizer
 
 jobs:
-  path-context:
+  docker_image_deploy:
     runs-on: ubuntu-20.04
     steps:
       -
